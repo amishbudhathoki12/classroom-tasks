@@ -97,13 +97,13 @@ else:
 
 # Question no. 8
 
-enter_number = input("Enter either 1, 2 or 3: ")
+enter_number = int(input("Enter either 1, 2 or 3: "))
 
-if enter_number == "1":
+if enter_number == 1:
     print("Game starting...")
-elif enter_number == "2":
+elif enter_number == 2:
     print("Opening settings...")
-elif enter_number == "3":
+elif enter_number == 3:
     print("Exiting...")
 else:
     print("DO NOT ENTER NUMBER HIGHER THAN 3")
