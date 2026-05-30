@@ -87,4 +87,5 @@ for i in l5:
     if i > 10:
         greater_nums += 1
 
-print(greater_nums)
+print(
+    f"There are {greater_nums} numbers greater than 10 available in the list")
